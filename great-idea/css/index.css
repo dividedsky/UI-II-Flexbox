@@ -64,3 +64,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	margin-bottom: 50px;
+	/*border: 1px solid green;*/
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header nav a {
+	color: gray;
+	font-size: 11px;
+	/*padding: 5px 40px;*/
+	text-decoration: none;
+}
+
+header img {
+	margin-left: 20px;
+	right: 0px;
+	top: 0px;
+}
+
+img {
+	display: inline;
+}
+/*section {
+	display: inline;
+}
+*/
+.container {
+	/*border: 5px solid purple;*/
+	width: 950px;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+
+.top-section {
+	display: flex;
+	/*border: 5px solid blue;*/
+	/*padding: 0 20px;*/
+	height: 400px;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+
+.main-content {
+	/*border: 5px solid red;*/
+	/*display: inline-block;*/
+
+}
+
+.main-content .two-column {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.top-section section h1{
+	font-size: 80px;
+	/*border: 1px solid gray;*/
+	margin-top: 80px;
+	margin-left: 20px;
+	text-align: center;
+	
+}
+
+.top-section section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.top-section img {
+	/*border: 1px solid black;*/
+	display: inline-block;
+	position: absolute;
+	right: -20px;
+}
+
+.top-section button {
+	width: 160px;
+	height: 25px;
+	/*position: absolute;*/
+	font-size: 16px;
+	background: white;
+	
+	border: 1px solid black;
+}
+
+/* .two-column section {
+	width: 48%;
+	display: inline-block;
+	margin: 10px 0px 20px 0;
+	/*border: 1px solid purple;
+} 
+
+.left {
+	margin-right: 10px;
+}
+
+/*.right {
+	position: absolute;
+	right: 0px;
+}
+
+.center {
+	position: absolute;
+	left: 40px;
+	width: 31%;
+
+}
+*/
+.main-content img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+.three-column {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+
+.three-column section {
+	margin-right: 10px;
+}
+/*.three-column section {
+	width: 31%;
+	display: flex;
+	/*border: 1px solid green;
+	justify-content: space-between;
+	margin: 20px 0;
+	/*position: relative;
+}
+*/
+.three-column .right {
+	/*position: absolute;*/
+	/*right: 0px;*/
+}
+footer p {
+	margin-top: 10px;
+}
+footer p:last-of-type {
+	text-align: center;
+	font-size: 10px;
+	/*border: 1px solid black;*/
+	color: rgb(156, 156, 156);
+}
