@@ -79,6 +79,7 @@ header nav {
 	justify-content: space-between;
 	margin-right: 80px;
 }
+
 header nav a {
 	color: gray;
 	font-size: 11px;
@@ -223,3 +224,6 @@ footer p:last-of-type {
 	/*border: 1px solid black;*/
 	color: rgb(156, 156, 156);
 }
+
+
+/* services css below */
