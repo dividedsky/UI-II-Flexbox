@@ -142,8 +142,11 @@ img {
 	border: 1px solid black;
 }
 
+.top-section img {
+}
+
 .main-content img {
-	margin: 10px 0;
+	width: 100%;
 }
 
 
@@ -189,9 +192,9 @@ footer p:last-of-type {
 }
 
 .box-section section {
-	width: 49%;
+	width: 387px;
 	border: 1px solid black;
-	margin: 10px 0;
+	margin-bottom: 40px;
 	background: rgb(240, 235, 235);
 	line-height: 1.3;
 	padding: 15px;
