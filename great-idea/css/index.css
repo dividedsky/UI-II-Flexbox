@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 .container header nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	flex-grow: 1;
 	padding-right: 50px;
@@ -167,4 +167,43 @@ h1, h2, h3, h4, h5 {
 .container footer {
 	text-align: center;
 	padding-top: 40px;
+}
+
+/* services css below */
+
+.container-services {
+	padding-top: 25px;
+}
+
+.container-services .services-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+.container-services .services-content h1 {
+	font-size: 30px;
+	padding-top: 25px;
+}
+
+.container-services .main-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+}
+
+.container-services .main-content section {
+	width: 47%;
+	background: #f4f3f4;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	line-height: 1.3;
+	padding: 20px;
+}
+
+.container-services .main-content section button {
+	background: white;
+	border: 1px solid black;
+	margin-top: 20px;
+	padding: 10px 40px;
+	border-radius: 5%;
 }
