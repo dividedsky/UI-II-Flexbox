@@ -119,3 +119,31 @@ h1, h2, h3, h4, h5 {
 
 }
 
+
+.container .main-content {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	padding: 25px 0;
+}
+
+.container .main-content .two-column{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .main-content .two-column div {
+	width: 47%;
+}
+
+.container .main-content img {
+	margin: 25px 0;
+}
+.container .main-content .three-column {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .main-content .three-column div {
+	width: 32%;
+}
