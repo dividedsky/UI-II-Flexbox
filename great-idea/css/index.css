@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width: 800px;
+	width: 880px;
 	margin: 20px auto;
+	border: 1px solid red;
 }
 .container header {
 	display: flex;
@@ -79,11 +80,42 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-around;
 	align-items: center;
 	flex-grow: 1;
+	padding-right: 50px;
 }
 
 .container header nav a {
 	color: gray;
 	text-decoration: none;
+
+}
+
+.container .cta {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+
+.container .cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 50px;
+}
+
+.container .cta .cta-text h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	background: white;
+	padding: 0 50px;
+	height: 25px;
+	border: 1px solid black;
 
 }
 
