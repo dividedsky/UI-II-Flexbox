@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 880px;
 	margin: 20px auto;
-	border: 1px solid red;
 }
 .container header {
 	display: flex;
@@ -146,4 +145,26 @@ h1, h2, h3, h4, h5 {
 
 .container .main-content .three-column div {
 	width: 32%;
+}
+
+.container .contact {
+	padding-top: 25px;
+}
+
+.container .contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .contact p {
+	padding: 15px 0;
+}
+
+.container .contact p:last-of-type {
+	padding-top: 0px;
+}
+
+.container footer {
+	text-align: center;
+	padding-top: 40px;
 }
